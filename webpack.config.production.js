@@ -8,7 +8,7 @@ module.exports = {
 
   output: {
     filename: "material-ui-avatar-picker.min.js",
-    path: "./dist",
+    path: __dirname+"/dist",
     libraryTarget: "umd",
     library: "material-ui-avatar-picker"
   },
@@ -33,11 +33,5 @@ module.exports = {
       },
       { test: /\.css$/, loader: "style-loader!css-loader" }
     ]
-  },
-
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {warnings: false}
-    })
-  ]
+  }
 };
