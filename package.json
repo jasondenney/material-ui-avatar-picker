@@ -1,6 +1,6 @@
 {
   "name": "material-ui-avatar-picker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/jasondenney/material-ui-avatar-picker",
   "description": "A @material-ui/core Avatar Picker meant to be a complete solution to avatar cropping.",
   "main": "dist/material-ui-avatar-picker.min.js",
