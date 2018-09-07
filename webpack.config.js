@@ -6,13 +6,22 @@ module.exports = {
   },
 
   output: {
-    path: './example',
+    path: __dirname+'/example',
     filename: 'bundle.js',
   },
 
   module: {
-    loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader?optional=es7.objectRestSpread"},
+    rules: [
+      { test: /\.js$/, 
+        exclude: /node_modules/, 
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-react', '@babel/preset-env'],
+            plugins: [require('@babel/plugin-proposal-object-rest-spread')]
+          }        
+        }
+      },
       { test: /\.css$/, loader: "style-loader!css-loader" }
     ]
   },
@@ -20,7 +29,6 @@ module.exports = {
   devServer: {
     contentBase: './example',
     host: 'localhost',
-    port: 9021,
-    info: false
+    port: 9021
   }
 };
