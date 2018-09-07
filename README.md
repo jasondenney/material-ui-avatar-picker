@@ -48,7 +48,7 @@ npm install
 npm start
 ```
 
-This will webpack-server-dev on port 9021.  Once it is running navigate to http://localhost:9021/webpack-dev-server/
+This will webpack-server-dev on port 9021.  Once it is running navigate to http://localhost:9021/
 
 
 ## Contributing
