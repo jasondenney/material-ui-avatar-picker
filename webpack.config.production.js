@@ -26,12 +26,15 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-react', '@babel/preset-env'],
-            plugins: [require('@babel/plugin-proposal-object-rest-spread')]
+            presets: ['@babel/preset-react', '@babel/preset-env']
           }        
         }
       },
-      { test: /\.css$/, loader: "style-loader!css-loader" }
+      // { test: /\.css$/, loader: "style-loader!css-loader" }
     ]
+  },
+
+  optimization: {
+    minimize: false
   }
 };

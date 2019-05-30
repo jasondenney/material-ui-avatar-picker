@@ -1,6 +1,6 @@
 {
   "name": "material-ui-avatar-picker",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "repository": "https://github.com/jasondenney/material-ui-avatar-picker",
   "description": "A @material-ui/core Avatar Picker meant to be a complete solution to avatar cropping.",
   "main": "dist/material-ui-avatar-picker.min.js",
@@ -10,7 +10,7 @@
     "prepublishOnly": "NODE_ENV=production ./node_modules/.bin/webpack --mode production --config webpack.config.production.js",
     "demo": "./node_modules/.bin/webpack --mode development --config webpack.config.demo.js"
   },
-  "author": "MobileUp Software",
+  "author": "Jason Denney",
   "license": "MIT",
   "keywords": [
     "react-component",

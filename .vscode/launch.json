@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "debug material-ui-avatar-picker",
+            "url": "http://localhost:9021",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
