@@ -1,6 +1,6 @@
 {
   "name": "material-ui-avatar-picker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "https://github.com/jasondenney/material-ui-avatar-picker",
   "description": "A @material-ui/core Avatar Picker meant to be a complete solution to avatar cropping.",
   "main": "dist/material-ui-avatar-picker.min.js",
@@ -35,9 +35,9 @@
     "react-dom": ">=16.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.2",
@@ -49,6 +49,6 @@
     "style-loader": "^0.23.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-dev-server": "^3.4.1"
   }
 }
